@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="1cc830bd-2249-4e72-960b-2cf3a7ea50e5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/19.07/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/19.07/.idea/workspace.xml" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/19.07/29_9012_괄호.py" beforeDir="false" afterPath="$PROJECT_DIR$/19.07/29_9012_괄호.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/19.07/31_5430_AC.py" beforeDir="false" afterPath="$PROJECT_DIR$/19.07/31_5430_AC.py" afterDir="false" />
+>>>>>>> 02f9d0f27292960db4b6b87990e7c22eb7b5f198
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,15 +19,23 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/19.08/05_2231_분해합.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
               <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+=======
+        <entry file="file://$PROJECT_DIR$/19.07/21_1919_애너그램 만들기.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
+>>>>>>> 02f9d0f27292960db4b6b87990e7c22eb7b5f198
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/19.08/05_2309_일곱난쟁이.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
@@ -30,15 +43,28 @@
               <folding>
                 <element signature="e#82#129#0" expanded="true" />
               </folding>
+=======
+        <entry file="file://$PROJECT_DIR$/19.07/29_9012_괄호.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="263">
+              <caret line="19" column="63" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
+>>>>>>> 02f9d0f27292960db4b6b87990e7c22eb7b5f198
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/19.08/05_3085_사탕게임.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="459">
               <caret line="27" column="30" lean-forward="true" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+=======
+        <entry file="file://$PROJECT_DIR$/19.07/31_5430_AC.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-561">
+              <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+>>>>>>> 02f9d0f27292960db4b6b87990e7c22eb7b5f198
             </state>
           </provider>
         </entry>
@@ -90,6 +116,7 @@
         <option value="$PROJECT_DIR$/19.07/17_2446_별찍기-9.py" />
         <option value="$PROJECT_DIR$/19.07/17_2445_별찍기_8.py" />
         <option value="$PROJECT_DIR$/19.07/17_2444_별찍기_7.py" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/19.08/05_00_Permutation.py" />
         <option value="$PROJECT_DIR$/19.08/05_00_Combinations.py" />
         <option value="$PROJECT_DIR$/19.08/05_30085_사탕게임2.py" />
@@ -99,13 +126,24 @@
         <option value="$PROJECT_DIR$/19.08/05_3085_사탕게임.py" />
         <option value="$PROJECT_DIR$/19.08/05_2231_분해합.py" />
         <option value="$PROJECT_DIR$/19.08/05_2309_일곱난쟁이.py" />
+=======
+        <option value="$PROJECT_DIR$/19.07/21_1919_애너그램 만들기.py" />
+        <option value="$PROJECT_DIR$/19.07/29_9012_괄호.py" />
+        <option value="$PROJECT_DIR$/19.07/31_5430_AC.py" />
+>>>>>>> 02f9d0f27292960db4b6b87990e7c22eb7b5f198
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
+=======
+    <option name="x" value="960" />
+    <option name="width" value="960" />
+    <option name="height" value="1035" />
+>>>>>>> 02f9d0f27292960db4b6b87990e7c22eb7b5f198
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -115,7 +153,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -132,6 +169,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -154,8 +192,13 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Python.05_2231_분해합">
     <configuration name="05_00_list 자리 바꾸기" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+  <component name="RunManager" selected="Python.31_5430_AC">
+    <configuration name="17_2445_별찍기_8" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> 02f9d0f27292960db4b6b87990e7c22eb7b5f198
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -168,7 +211,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/19.08/05_00_list 자리 바꾸기.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/19.07/17_2445_별찍기_8.py" />
+>>>>>>> 02f9d0f27292960db4b6b87990e7c22eb7b5f198
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -177,7 +224,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="05_00_zip" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration name="17_2446_별찍기-9" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> 02f9d0f27292960db4b6b87990e7c22eb7b5f198
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -190,7 +241,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/19.08/05_00_zip.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/19.07/17_2446_별찍기-9.py" />
+>>>>>>> 02f9d0f27292960db4b6b87990e7c22eb7b5f198
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -199,7 +254,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="05_2231_분해합" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration name="21_1919_애너그램 만들기" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> 02f9d0f27292960db4b6b87990e7c22eb7b5f198
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -212,7 +271,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/19.08/05_2231_분해합.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/19.07/21_1919_애너그램 만들기.py" />
+>>>>>>> 02f9d0f27292960db4b6b87990e7c22eb7b5f198
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -221,7 +284,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="05_3085_사탕게임" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration name="29_9012_괄호" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> 02f9d0f27292960db4b6b87990e7c22eb7b5f198
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -234,7 +301,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/19.08/05_3085_사탕게임.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/19.07/29_9012_괄호.py" />
+>>>>>>> 02f9d0f27292960db4b6b87990e7c22eb7b5f198
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -243,7 +314,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="05_3085_사탕게임2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration name="31_5430_AC" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> 02f9d0f27292960db4b6b87990e7c22eb7b5f198
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -256,7 +331,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/19.08/05_3085_사탕게임2.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/19.07/31_5430_AC.py" />
+>>>>>>> 02f9d0f27292960db4b6b87990e7c22eb7b5f198
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -267,11 +346,19 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="Python.05_2231_분해합" />
         <item itemvalue="Python.05_3085_사탕게임" />
         <item itemvalue="Python.05_3085_사탕게임2" />
         <item itemvalue="Python.05_00_zip" />
         <item itemvalue="Python.05_00_list 자리 바꾸기" />
+=======
+        <item itemvalue="Python.31_5430_AC" />
+        <item itemvalue="Python.29_9012_괄호" />
+        <item itemvalue="Python.21_1919_애너그램 만들기" />
+        <item itemvalue="Python.17_2446_별찍기-9" />
+        <item itemvalue="Python.17_2445_별찍기_8" />
+>>>>>>> 02f9d0f27292960db4b6b87990e7c22eb7b5f198
       </list>
     </recent_temporary>
   </component>
@@ -289,12 +376,19 @@
       <workItem from="1563203190867" duration="1507000" />
       <workItem from="1563291620662" duration="1067000" />
       <workItem from="1563370091165" duration="3933000" />
+<<<<<<< HEAD
       <workItem from="1564968391466" duration="9729000" />
       <workItem from="1564986282940" duration="2066000" />
+=======
+      <workItem from="1563709831823" duration="4087000" />
+      <workItem from="1563892254447" duration="1817000" />
+      <workItem from="1564583224020" duration="4282000" />
+>>>>>>> 02f9d0f27292960db4b6b87990e7c22eb7b5f198
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="24180000" />
   </component>
   <component name="ToolWindowManager">
@@ -302,12 +396,26 @@
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26367614" />
+=======
+    <option name="totallyTimeSpent" value="22571000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="768" y="0" width="768" height="828" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16760564" />
+>>>>>>> 02f9d0f27292960db4b6b87990e7c22eb7b5f198
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32960895" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36582693" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+=======
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30603448" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39913544" />
+>>>>>>> 02f9d0f27292960db4b6b87990e7c22eb7b5f198
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -315,7 +423,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3299712" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -328,19 +436,32 @@
     <option name="version" value="1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+<<<<<<< HEAD
     <SUITE FILE_PATH="coverage/Algorithm$11_2490_.coverage" NAME="11_2490_윷놀이 Coverage Results" MODIFIED="1562853208495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/19.07" />
     <SUITE FILE_PATH="coverage/Algorithm$17_10804_.coverage" NAME="17_10804_카드역배치 Coverage Results" MODIFIED="1563292426827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/19.07" />
     <SUITE FILE_PATH="coverage/Algorithm$17_2445__8.coverage" NAME="17_2445_별찍기_8 Coverage Results" MODIFIED="1563372534759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/19.07" />
     <SUITE FILE_PATH="coverage/Algorithm$05_3085_.coverage" NAME="05_3085_사탕게임 Coverage Results" MODIFIED="1564976603022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/19.08" />
+=======
+    <SUITE FILE_PATH="coverage/Algorithm$11_10869_.coverage" NAME="11_10869_사직연산 Coverage Results" MODIFIED="1562849432729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/19.07" />
+    <SUITE FILE_PATH="coverage/Algorithm$21_1919__.coverage" NAME="21_1919_애너그램 만들기 Coverage Results" MODIFIED="1563713492512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/19.07" />
+    <SUITE FILE_PATH="coverage/Algorithm$16_10093_.coverage" NAME="16_10093_숫자 Coverage Results" MODIFIED="1563204121973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/19.07" />
+    <SUITE FILE_PATH="coverage/Algorithm$11_9498_.coverage" NAME="11_9498_시험성적 Coverage Results" MODIFIED="1562850060357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/19.07" />
+>>>>>>> 02f9d0f27292960db4b6b87990e7c22eb7b5f198
     <SUITE FILE_PATH="coverage/Algorithm$11_2753_.coverage" NAME="11_2753_윤년 Coverage Results" MODIFIED="1562850839635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/19.07" />
     <SUITE FILE_PATH="coverage/Algorithm$17_2444__7.coverage" NAME="17_2444_별찍기_7 Coverage Results" MODIFIED="1563371554030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/19.07" />
+<<<<<<< HEAD
     <SUITE FILE_PATH="coverage/Algorithm$05_2309_.coverage" NAME="05_2309_일곱난쟁이 Coverage Results" MODIFIED="1564969535326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/19.08" />
     <SUITE FILE_PATH="coverage/Algorithm$11_9498_.coverage" NAME="11_9498_시험성적 Coverage Results" MODIFIED="1562850060357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/19.07" />
+=======
+    <SUITE FILE_PATH="coverage/Algorithm$11_2490_.coverage" NAME="11_2490_윷놀이 Coverage Results" MODIFIED="1562853208495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/19.07" />
+    <SUITE FILE_PATH="coverage/Algorithm$29_9012_.coverage" NAME="29_9012_괄호 Coverage Results" MODIFIED="1564584265530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/19.07" />
+>>>>>>> 02f9d0f27292960db4b6b87990e7c22eb7b5f198
     <SUITE FILE_PATH="coverage/Algorithm$11_2752_.coverage" NAME="11_2752_세수정렬 Coverage Results" MODIFIED="1562850411456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/19.07" />
     <SUITE FILE_PATH="coverage/Algorithm$11_2562_.coverage" NAME="11_2562_최댓값 Coverage Results" MODIFIED="1562854110875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/19.07" />
     <SUITE FILE_PATH="coverage/Algorithm$17_2446__9.coverage" NAME="17_2446_별찍기-9 Coverage Results" MODIFIED="1563373506011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/19.07" />
     <SUITE FILE_PATH="coverage/Algorithm$05_2231_.coverage" NAME="05_2231_분해합 Coverage Results" MODIFIED="1564987027757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/19.08" />
     <SUITE FILE_PATH="coverage/Algorithm$11_2480_.coverage" NAME="11_2480_주사위세개 Coverage Results" MODIFIED="1562851820698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/19.07" />
+<<<<<<< HEAD
     <SUITE FILE_PATH="coverage/Algorithm$05_3085_2.coverage" NAME="05_3085_사탕게임2 Coverage Results" MODIFIED="1564976024572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/19.08" />
     <SUITE FILE_PATH="coverage/Algorithm$05_00_Permutation.coverage" NAME="05_00_Permutation Coverage Results" MODIFIED="1564968446901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/19.08" />
     <SUITE FILE_PATH="coverage/Algorithm$11_10869_.coverage" NAME="11_10869_사직연산 Coverage Results" MODIFIED="1562849432729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/19.07" />
@@ -349,6 +470,9 @@
     <SUITE FILE_PATH="coverage/Algorithm$17_2443__6.coverage" NAME="17_2443_별찍기-6 Coverage Results" MODIFIED="1563370800146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/19.07" />
     <SUITE FILE_PATH="coverage/Algorithm$05_00_Combinations.coverage" NAME="05_00_Combinations Coverage Results" MODIFIED="1564969794074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/19.08" />
     <SUITE FILE_PATH="coverage/Algorithm$05_00_zip.coverage" NAME="05_00_zip Coverage Results" MODIFIED="1564974450107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/19.08" />
+=======
+    <SUITE FILE_PATH="coverage/Algorithm$31_5430_AC.coverage" NAME="31_5430_AC Coverage Results" MODIFIED="1564586164933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/19.07" />
+>>>>>>> 02f9d0f27292960db4b6b87990e7c22eb7b5f198
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/19.04/02/02_일곱난쟁이.py">
@@ -540,7 +664,28 @@
     <entry file="file://$PROJECT_DIR$/19.07/17_2438_별찍기-1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/19.07/21_1919_애너그램 만들기.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/19.07/29_9012_괄호.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="19" column="63" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/19.07/31_5430_AC.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-561">
+          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
         </state>
       </provider>
     </entry>
