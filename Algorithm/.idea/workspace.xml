@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1cc830bd-2249-4e72-960b-2cf3a7ea50e5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/19.07/29_9012_괄호.py" beforeDir="false" afterPath="$PROJECT_DIR$/19.07/29_9012_괄호.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/19.07/31_5430_AC.py" beforeDir="false" afterPath="$PROJECT_DIR$/19.07/31_5430_AC.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,29 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/19.07/21_1919_애너그램 만들기.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/19.07/29_9012_괄호.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="19" column="63" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/19.07/31_5430_AC.py">
+        <entry file="file://$PROJECT_DIR$/19.08/01_1021_회전하는 큐.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-561">
-              <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+            <state relative-caret-position="340">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
             </state>
           </provider>
         </entry>
@@ -91,13 +71,14 @@
         <option value="$PROJECT_DIR$/19.07/21_1919_애너그램 만들기.py" />
         <option value="$PROJECT_DIR$/19.07/29_9012_괄호.py" />
         <option value="$PROJECT_DIR$/19.07/31_5430_AC.py" />
+        <option value="$PROJECT_DIR$/19.08/01_1021_회전하는 큐.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="960" />
     <option name="width" value="960" />
-    <option name="height" value="1035" />
+    <option name="height" value="1033" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -107,6 +88,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -117,19 +99,18 @@
             <path>
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="19.07" type="462c0819:PsiDirectoryNode" />
+              <item name="19.08" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/Documents and Settings" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -146,8 +127,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.31_5430_AC">
-    <configuration name="17_2445_별찍기_8" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.01_1021_회전하는 큐">
+    <configuration name="01_1021_회전하는 큐" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -155,12 +136,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/19.07" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/19.08" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/19.07/17_2445_별찍기_8.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/19.08/01_1021_회전하는 큐.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -259,11 +240,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.01_1021_회전하는 큐" />
         <item itemvalue="Python.31_5430_AC" />
         <item itemvalue="Python.29_9012_괄호" />
         <item itemvalue="Python.21_1919_애너그램 만들기" />
         <item itemvalue="Python.17_2446_별찍기-9" />
-        <item itemvalue="Python.17_2445_별찍기_8" />
       </list>
     </recent_temporary>
   </component>
@@ -283,23 +264,28 @@
       <workItem from="1563370091165" duration="3933000" />
       <workItem from="1563709831823" duration="4087000" />
       <workItem from="1563892254447" duration="1817000" />
-      <workItem from="1564583224020" duration="4282000" />
+      <workItem from="1564583224020" duration="4415000" />
+      <workItem from="1564668989183" duration="1182000" />
+      <workItem from="1564751326398" duration="374000" />
+      <workItem from="1564904430212" duration="196000" />
+      <workItem from="1564904674876" duration="175000" />
+      <workItem from="1565192768483" duration="1928000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22571000" />
+    <option name="totallyTimeSpent" value="26559000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="768" y="0" width="768" height="828" extended-state="0" />
+    <frame x="768" y="0" width="768" height="826" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16760564" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49856323" visible="true" weight="0.25070423" />
+      <window_info id="Structure" order="1" sideWeight="0.50143677" side_tool="true" weight="0.2636656" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32960895" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30603448" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25504324" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39913544" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -330,6 +316,7 @@
     <SUITE FILE_PATH="coverage/Algorithm$17_2444__7.coverage" NAME="17_2444_별찍기_7 Coverage Results" MODIFIED="1563371554030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/19.07" />
     <SUITE FILE_PATH="coverage/Algorithm$11_2490_.coverage" NAME="11_2490_윷놀이 Coverage Results" MODIFIED="1562853208495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/19.07" />
     <SUITE FILE_PATH="coverage/Algorithm$29_9012_.coverage" NAME="29_9012_괄호 Coverage Results" MODIFIED="1564584265530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/19.07" />
+    <SUITE FILE_PATH="coverage/Algorithm$01_1021__.coverage" NAME="01_1021_회전하는 큐 Coverage Results" MODIFIED="1565194661524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/19.08" />
     <SUITE FILE_PATH="coverage/Algorithm$11_2752_.coverage" NAME="11_2752_세수정렬 Coverage Results" MODIFIED="1562850411456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/19.07" />
     <SUITE FILE_PATH="coverage/Algorithm$17_2446__9.coverage" NAME="17_2446_별찍기-9 Coverage Results" MODIFIED="1563373506011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/19.07" />
     <SUITE FILE_PATH="coverage/Algorithm$17_10804_.coverage" NAME="17_10804_카드역배치 Coverage Results" MODIFIED="1563292426827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/19.07" />
@@ -389,13 +376,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/19.07/15_2562_최댓값.py" />
-    <entry file="file://$PROJECT_DIR$/19.07/16_10093_숫자.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="5" selection-start-line="5" selection-end-line="16" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/19.07/11_10869_사직연산.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -539,6 +519,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/19.07/31_5430_AC.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-133">
+          <caret line="27" column="12" lean-forward="true" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/19.07/29_9012_괄호.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="63" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/19.07/21_1919_애너그램 만들기.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
@@ -546,17 +540,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/19.07/29_9012_괄호.py">
+    <entry file="file://$PROJECT_DIR$/19.07/26_1406_에디터.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/19.07/24_1158_조세퍼스2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="19" column="63" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/19.07/31_5430_AC.py">
+    <entry file="file://$PROJECT_DIR$/19.07/24_1158_조세퍼스.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/19.07/16_10093_숫자.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-561">
-          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        <state relative-caret-position="204">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/19.08/01_1021_회전하는 큐.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
         </state>
       </provider>
     </entry>
