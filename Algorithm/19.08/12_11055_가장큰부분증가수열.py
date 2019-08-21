@@ -7,12 +7,13 @@ sys.stdin = open('input2.txt')
 n = int(input())
 a = list(map(int, input().split()))
 dp = [-1]*n
-
+print(a)
+print()
 
 for i in range(n):
     dp[i] = a[i]
     for j in range(i):
         if a[i] > a[j] and dp[i] < dp[j]+a[i]:
             dp[i] = dp[j] + a[i]
-
+    print(dp)
 print(max(dp))

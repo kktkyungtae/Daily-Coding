@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ade3627-5f25-45bb-b848-491bda3bf877" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Algorithm/19.08/input2.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/19.08/12_11055_가장큰부분증가수열.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/19.08/12_11055_가장큰부분증가수열.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +95,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="953" />
+    <option name="x" value="311" />
+    <option name="y" value="38" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -109,29 +108,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="TIL3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TIL3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TIL3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TIL3" type="462c0819:PsiDirectoryNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TIL3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TIL3" type="462c0819:PsiDirectoryNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="19.08" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -289,18 +267,18 @@
       <workItem from="1565163661340" duration="4518000" />
       <workItem from="1565333535667" duration="4921000" />
       <workItem from="1565570185588" duration="16019000" />
-      <workItem from="1565605955506" duration="259000" />
+      <workItem from="1565605955506" duration="313000" />
+      <workItem from="1565655759383" duration="601000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29923000" />
+    <option name="totallyTimeSpent" value="30578000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
-    <editor active="true" />
+    <frame x="311" y="38" width="974" height="1047" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24617068" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2571116" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />

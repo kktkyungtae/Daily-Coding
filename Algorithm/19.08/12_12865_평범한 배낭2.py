@@ -6,8 +6,8 @@ def knapsack1(n, k):
                 array[i][s] = array[i - 1][s]
             else: # 물건의 무게가 s보다 작거나 같으면
                 array[i][s] = max(v_list[i-1] + array[i-1][s-w_list[i-1]], array[i-1][s])
-        #     print('%2d' % array[i][s], end=' ')
-        # print()
+            print('%2d' % array[i][s], end=' ')
+        print()
     return array[n][k]
 
 N, K = map(int, input().split())
