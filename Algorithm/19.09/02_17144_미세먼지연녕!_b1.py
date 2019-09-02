@@ -33,7 +33,6 @@ def dust_move():
 
 
 def air_fresher():
-    # 위 : 반시계 방향
     y, x = machine[0]
     for i in range(y - 1, 0, -1):
         mp[i][0] = mp[i - 1][0]
@@ -48,7 +47,6 @@ def air_fresher():
         mp[y][i] = mp[y][i - 1]
     mp[y][1] = 0
 
-    # 아래 : 반시계 방향
     y, x = machine[1]
     for i in range(y + 1, r - 1):
         mp[i][0] = mp[i + 1][0]
@@ -61,6 +59,7 @@ def air_fresher():
 
     for i in range(c - 1, x, -1):
         mp[y][i] = mp[y][i - 1]
+
     mp[y][1] = 0
 
 
@@ -70,7 +69,6 @@ def cnt():
         total += sum(i)
     total += 2
     print(total)
-
 
 for _ in range(t):
     dust_move()
