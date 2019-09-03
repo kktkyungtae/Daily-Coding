@@ -18,6 +18,7 @@ def move_fish(fish, a, b):
                     a += 1
                     fish[1] = 2
                     flag = True
+
     elif fish[1] == 2:
         flag = True
         for i in range(fish[0]):
@@ -35,6 +36,7 @@ def move_fish(fish, a, b):
                     a += 1
                     fish[1] = 2
                     flag = True
+
     elif fish[1] == 3:
         flag = True
         for i in range(fish[0]):
@@ -52,6 +54,7 @@ def move_fish(fish, a, b):
                     b += 1
                     fish[1] = 3
                     flag = True
+
     else:
         flag = False
         for i in range(fish[0]):
@@ -69,6 +72,7 @@ def move_fish(fish, a, b):
                     b += 1
                     fish[1] = 3
                     flag = True
+
     return [a, b] + fish
 
 r, c, m = map(int, input().split())
