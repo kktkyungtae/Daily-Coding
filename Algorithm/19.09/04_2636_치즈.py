@@ -1,92 +1,47 @@
-# baekjoon
-# https://www.acmicpc.net/problem/2636
+from collections import deque
+from sys import stdin
+input = stdin.readline
 
-# 치즈가 마지막으로 남아 있을 때 시간
-# 마지막에 남아 있는 치즈의 수를 구하는 문제
+def bfs():
+    q = deque()
+    q.append((0, 0))
+    check = [[False]*m for _ in range(n)]
+    check[0][0] = True
+    while q:
+        x, y = q.popleft()
+        for dx, dy in (-1,0), (1,0), (0,-1), (0,1):
+            nx, ny = x+dx, y+dy
+            if 0 <= nx < n and 0 <= ny < m:
+                if check[nx][ny] == False:
+                # if not check[nx][ny]:
+                    if a[nx][ny] >= 1:
+                        a[nx][ny] += 1
+                    else:
+                        q.append((nx, ny))
+                        check[nx][ny] = True
 
-# 치즈를 둘러싸고 있는 마지막 껍데기는
-# 공기중에 노출되었다 보고
-# 1초 마다 사라진다
-import collections
+def melt():
+    global piece
+    melted, cnt = False, 0
+    for i in range(n):
+        for j in range(m):
+            if a[i][j] >= 2:
+                a[i][j] = 0
+                melted = True
+                cnt += 1
+    if cnt > 0:
+        piece = cnt
+    return melted
+
 
 n, m = map(int, input().split())
-mapp = [list(map(int, input().split())) for _ in range(n)]
-# print(mapp)
-
-visited = [[False]*m for _ in range(n)]
-copy_map = [[0]*m for _ in range(n)]
-
-#
-q = collections.deque()
-# 주변에 뭐있는지 보는
-what = collections.deque()
-
-# 둘러보기
-dx = [0, 0, 1, -1]
-dy = [1, -1, 0, 0]
-cnt = 0
-
-# 시작점 찾기
-for i in range(n):
-    for j in range(m):
-        if mapp[i][j] == 1:
-            q.append([i, j])
-            break
-start = q.popleft()
-visited[start[0]][start[1]] = True
-
-def change():
-    global cnt
-    for i in range(n):
-        for j in range(m):
-            if mapp[i][j] == 1:
-                mapp[i][j] = 'c'
-                # 처음 만나는 놈은 무조건 겉에 꺼니까
-                for k in range(4):
-                    tmp_i = i + dx[k]
-                    tmp_j = j + dy[k]
-                    if 0 <= tmp_i < m and 0 <= tmp_j < n:
-                        # what에 주변에 있는 좌표들을 다 넣고
-                        what.append([tmp_i, tmp_j])
-
-                # 주변 검증
-                while what:
-                    tmp_q = what.popleft()
-                    nx = tmp_q[0]
-                    ny = tmp_q[1]
-                    zero = 0
-                    one = 0
-                    c_num = 0
-
-                    # 0이면 걍 pass
-                    if mapp[nx][ny] == 0:
-                        zero += 1
-
-                    # 1이면 , 테두리 인지 속에 있는 것인지 확인
-                    elif mapp[nx][ny] == 1:
-                        one += 1
-                        # for i in range(4):
-                        #     tmp_nx = nx + dx[i]
-                        #     tmp_ny = ny + dy[i]
-                        #     if 0 <= tmp_nx < n and 0 <= tmp_ny < m:
-
-                    elif mapp[nx][ny] == 'c':
-                        c_num += 1
-
-                    else:
-                        break
-
-                    if zero >= 2 or c_num >= 2 and zero >= 1:
-                        mapp[i][j] = 'c'
-    print(mapp)
-    # 테두리는 다 0으로 만들기
-    for i in range(n):
-        cnt += 1
-        for j in range(m):
-            if mapp[i][j] == 'c':
-                mapp[i][j] = 0
-
-change()
-print(cnt)
-
-
+a = [list(map(int, input().split())) for _ in range(n)]
+ans, piece = 0, 0
+while True:
+    bfs()
+    if melt() == True:
+        ans += 1
+    else:
+        break
+print(ans)
+print(piece)

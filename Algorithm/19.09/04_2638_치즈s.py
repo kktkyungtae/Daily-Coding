@@ -11,14 +11,13 @@ def bfs():
         x, y = q.popleft()
         for dx, dy in (-1,0), (1,0), (0,-1), (0,1):
             nx, ny = x+dx, y+dy
-            if nx < 0 or nx >= n or ny < 0 or ny >= m:
-                continue
-            if not check[nx][ny]:
-                if a[nx][ny] >= 1:
-                    a[nx][ny] += 1
-                else:
-                    q.append((nx, ny))
-                    check[nx][ny] = True
+            if 0 <= nx < n and 0 <= ny < m:
+                if check[nx][ny] == False:
+                    if a[nx][ny] >= 1:
+                        a[nx][ny] += 1
+                    else:
+                        q.append((nx, ny))
+                        check[nx][ny] = True
 
 def melt():
     melted = False
