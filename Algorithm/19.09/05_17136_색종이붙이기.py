@@ -9,3 +9,15 @@
 # 색종이가 종이 경계를 나가서는 안되고 / 겹쳐서도 안된다
 # 1이 적힌 모든 칸을 붙이는데 필요한 색종이 최소 값을 구해라
 
+paper = [list(map(int, input().split())) for _ in range(10)]
+
+one = 0
+for i in range(10):
+    for j in range(10):
+        if paper[i][j] == 1:
+            one += 1
+
+if one == 0:
+    print(one)
+
+else:

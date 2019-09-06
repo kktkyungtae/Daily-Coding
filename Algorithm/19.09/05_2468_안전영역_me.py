@@ -12,24 +12,6 @@ import collections
 n = int(input())
 arr = [list(map(int, input().split())) for _ in range(n)]
 
-# def check(rain):
-#     tmp_result = []
-#     # 기준보다 작으면 0 으로 바꾸기
-#
-#     for i in range(n):
-#         for j in range(n):
-#             if arr[i][j] <= rain:
-#                 arr[i][j] = 0
-#
-#     vist = [[False] * n for _ in range(n)]
-#
-#     for i in range(n):
-#         for j in range(n):
-#             if arr[i][j] != 0:
-#                 tmp_result.append(bfs(i, j))
-#     print(len(tmp_result))
-#     return len(tmp_result)
-
 def bfs(x, y):
     global vist
     q = collections.deque()
@@ -73,11 +55,13 @@ for a in range(len(min_li)):
     tmp_result = []
     # 기준보다 작으면 0 으로 바꾸기
 
+    # Check
     for i in range(n):
         for j in range(n):
             if arr[i][j] <= rain:
                 arr[i][j] = 0
 
+    # ★★★ visit 초기화 위치 중요 ★★★
     vist = [[False] * n for _ in range(n)]
 
     for i in range(n):

@@ -35,6 +35,7 @@ def bfs():
                     if chiz[tmp_x][tmp_y] >= 1:
                         chiz[tmp_x][tmp_y] += 1
                     else:
+                        # 0이면 큐에 넣기!
                         q.append((tmp_x, tmp_y))
                         visit[tmp_x][tmp_y] = True
 
@@ -47,6 +48,7 @@ def melt():
             if chiz[i][j] >= 2:
                 chiz[i][j] = 0
                 flag = True
+
                 # 녹일 때 마다 녹인 갯수를 올리니까
                 cnt += 1
 

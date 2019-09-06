@@ -26,12 +26,16 @@ def check(rain):
         for j in range(n):
             if arr[i][j] != 0:
                 tmp_result.append(bfs(i, j))
-    print(len(tmp_result))
+
     return len(tmp_result)
 
 
 def bfs(x, y):
     q = collections.deque()
+
+    # 여기서 visit을 해버리면 계속 초기화된다!
+    # 함수 쓸 때나 visit할 때 초기화 위치 신경쓰자
+
     vist = [[False]*n for _ in range(n)]
     q.append((x, y))
     vist[x][y] = True

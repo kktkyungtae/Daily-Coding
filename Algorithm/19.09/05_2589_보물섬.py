@@ -37,8 +37,6 @@ def bfs(x, y):
 
 n, m = map(int, input().split())
 mapp = [list(input()) for _ in range(n)]
-# visit = [[False]*m for _ in range(n)]
-# print(mapp)
 
 result = 0
 for i in range(n):
