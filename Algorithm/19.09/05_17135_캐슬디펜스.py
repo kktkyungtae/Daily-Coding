@@ -1,6 +1,7 @@
 # 백준
 # https://www.acmicpc.net/problem/17135
 
+<<<<<<< HEAD
 # NxM 격자 판에 성으로 몰려오는 적들이 있다
 # N+1 마지막 칸에 성이 있고 / 궁수 세명이 있는데
 # 궁수는 적을 공격해서 죽인다
@@ -35,3 +36,6 @@ for i in com_shoot:
 
     target.append(attack)
 
+=======
+#
+>>>>>>> f3f9c501374e55f26423e21d4ea6da37eb0ed694
