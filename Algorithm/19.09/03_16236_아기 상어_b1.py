@@ -10,7 +10,7 @@ def bfs(v):
 
     que = collections.deque()
     que.append(v)
-    visited[v[0]v[1]] = True
+    visited[v[0][v[1]] = True
     food = []
     state = 0
 
