@@ -3,7 +3,7 @@
 
 # 1의 상하좌우로 인접한 0을 1로 바꾼다
 # 주어진 전체 맵에서 0이 1로 바뀔 때 까지 걸리는 시간을 출력하라
-# 1차원이 아닌, 3차원이다
+# 2차원이 아닌, 3차원이다
 
 import collections
 
@@ -31,12 +31,10 @@ def bfs():
             ny = y + dy[i]
             nz = z + dz[i]
 
-            if 0 > nx or nx >= h or 0 > ny or ny >= n or 0 > nz or nz >= m:
-                continue
-            if mapp[nx][ny][nz]:
-                continue
-            mapp[nx][ny][nz] = mapp[x][y][z] + 1
-            q.append((nx, ny, nz))
+            if 0 <= nx < h and 0 <= ny < n and 0 <= nz < m:
+                if mapp[nx][ny][nz] == 0:
+                    mapp[nx][ny][nz] = mapp[x][y][z] + 1
+                    q.append((nx, ny, nz))
 
 def solve():
     bfs()
