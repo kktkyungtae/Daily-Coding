@@ -3,27 +3,41 @@
 
 # 섬을 연결하는데, 가장 짧게 연결할 수 있는 가장 짧은 다리는?
 
-import sys
+'''
+10
+1 1 1 0 0 0 0 1 1 1
+1 1 1 1 0 0 0 0 1 1
+1 0 1 1 0 0 0 0 1 1
+0 0 1 1 1 0 0 0 0 1
+0 0 0 1 0 0 0 0 0 1
+0 0 0 0 0 0 0 0 0 1
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 1 1 0 0 0 0
+0 0 0 0 1 1 1 0 0 0
+0 0 0 0 0 0 0 0 0 0
+'''
+
 import collections
-sys.setrecursionlimit(10**9)
 
 n = int(input())
 mapp = [list(map(int, input().split())) for _ in range(n)]
-visited = [[False] * n for _ in range(n)]
-result = 10**9
+visited = [[False]*n for _ in range(n)]
 k = 1
+ans = 9999999999
 
 dx = [1, -1, 0, 0]
 dy = [0, 0, 1, -1]
 
-def bbfs(x, y):
+def check(x, y):
     visited[x][y] = True
     mapp[x][y] = k
     q = collections.deque()
     q.append((x, y))
 
+    # Q가 있을 때까지 돌아야지! 확인 잘하자
     while q:
         x, y = q.popleft()
+
         for i in range(4):
             nx = x + dx[i]
             ny = y + dy[i]
@@ -34,45 +48,43 @@ def bbfs(x, y):
                     visited[nx][ny] = True
                     q.append((nx, ny))
 
-def bfs(h):
-    global result
-    dist = [[-1] * n for _ in range(n)]
+def bfs(z):
+    global ans
+    dist = [[-1]*n for _ in range(n)]
+
     q = collections.deque()
 
     for i in range(n):
         for j in range(n):
-            if mapp[i][j] == h:
+            if mapp[i][j] == z:
                 dist[i][j] = 0
                 q.append((i, j))
 
     while q:
-        # for i in dist:
-        #     print(i)
-        # print()
-
         x, y = q.popleft()
 
         for i in range(4):
             nx = x + dx[i]
             ny = y + dy[i]
 
-            if nx < 0 or nx >= n or ny < 0 or ny >= n:
-                continue
-            if mapp[nx][ny] and mapp[nx][ny] != h:
-                result = min(result, dist[x][y])
-                return
-            if not mapp[nx][ny] and dist[nx][ny] == -1:
-                dist[nx][ny] = dist[x][y]+1
-                q.append((nx, ny))
+            if 0 <= nx < n and 0 <= ny < n:
+                if mapp[nx][ny] == 0 and dist[nx][ny] == -1:
+                    dist[nx][ny] = dist[x][y] + 1
+                    q.append((nx, ny))
+                # mapp[nx][ny] == 1 and 얘는 달라 얘랑 mapp[nx][ny] and
+                # mapp[nx][ny] and 얘랑 같아 얘는 mapp[nx][ny] != 0
+                if mapp[nx][ny] != 0 and mapp[nx][ny] != z:
+                    ans = min(ans, dist[x][y])
+                    return
 
 for i in range(n):
     for j in range(n):
-        if mapp[i][j] and not visited[i][j]:
-            bbfs(i, j)
+        # visited 처리 확인 잘하자!
+        if mapp[i][j] == 1 and visited[i][j] == False:
+            check(i, j)
             k += 1
 
-for i in range(1, k+1):
+for i in range(1, k + 1):
     bfs(i)
 
-
-print(result)
+print(ans)
