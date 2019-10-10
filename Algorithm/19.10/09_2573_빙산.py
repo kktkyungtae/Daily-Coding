@@ -6,53 +6,84 @@
 # 주변 0에 노출된 수만큼 줄어든다
 # 한 덩어리의 빙산이 주어지는데, 덩어리가 두 덩어리 이상으로 분리되는 시간을 출력해라
 
-import collections
+from collections import deque
+from sys import stdin
+input = stdin.readline
 
-def numbering(x, y):
-    global visit
-    q = collections.deque()
-    q.append((x, y))
-    mapp2 = [[0]*g for _ in range(s)]
-    mapp2[x][y] = k
+n, m = map(int, input().split())
+a = [list(map(int, input().split())) for _ in range(n)]
+q = deque()
+dx = (-1, 0, 1, 0)
+dy = (0, 1, 0, -1)
 
-    dx = [0,0,-1,1]
-    dy = [-1,1,0,0]
+for i in range(n):
+    for j in range(m):
+        if a[i][j] > 0:
+            q.append((i, j))
+        else:
+            a[i][j] = -1
 
-    while q:
+def bfs(i, j, check):
+    bq = deque()
+    bq.append((i, j))
+    check[i][j] = True
+    while bq:
+        x, y = bq.popleft()
+        for k in range(4):
+            nx, ny = x+dx[k], y+dy[k]
+            if nx < 0 or nx >= n or ny < 0 or ny >= m:
+                continue
+            if check[nx][ny] is False and a[nx][ny] > 0:
+                bq.append((nx, ny))
+                check[nx][ny] = True
+
+def counting():
+    cnt = 0
+    check = [[False]*m for _ in range(n)]
+    for _ in range(len(q)):
         x, y = q.popleft()
+        q.append((x, y))
+        if check[x][y] is False:
+            bfs(x, y, check)
+            cnt += 1
+            if cnt >= 2:
+                return True
+    return False
 
-        for i in range(4):
-            nx = x + dx[i]
-            ny = y + dy[i]
-
-            if 0 <= nx < g and 0 <= ny < s:
-                if mapp[nx][ny] != 0 and visit[nx][ny] == False:
-                    mapp2[nx][ny] = k
-
-
-def melt():
-    for i in range(s):
-        for j in range(g):
-            if mapp[i][j] > 0:
-                mapp[i][j] -= 1
-
-
-s, g = map(int, input().split())
-mapp = [list(map(int, input().split())) for _ in range(s)]
-flag = False
-k = 1
+def melting():
+    p = deque()
+    for _ in range(len(q)):
+        x, y = q.popleft()
+        for k in range(4):
+            nx, ny = x+dx[k], y+dy[k]
+            if nx < 0 or nx >= n or ny < 0 or ny >= m:
+                continue
+            if a[x][y] > 0 and a[nx][ny] == -1:
+                a[x][y] -= 1
+        if a[x][y] > 0:
+            q.append((x, y))
+        elif a[x][y] == 0:
+            p.append((x, y))
+    while p:
+        x, y = p.popleft()
+        a[x][y] = -1
 
 def solve():
-    global k
-    visit = [[False] * g for _ in range(s)]
-    while k < 2:
-        for i in range(s):
-            for j in range(g):
-                if mapp[i][j] != 0 and visit[i][j] == False:
-                    numbering(i, j)
-                    k += 1
-                    melt()
-
-    return k
+    year = 0
+    while q:
+        melting()
+        year += 1
+        if counting() is True:
+            return year
+    return 0
 
 print(solve())
+
+'''
+5 7
+0 0 0 0 0 0 0
+0 2 4 5 3 0 0
+0 3 0 2 5 2 0
+0 7 6 2 4 0 0
+0 0 0 0 0 0 0
+'''
