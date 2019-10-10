@@ -15,6 +15,7 @@ for i in range(n):
         else:
             a[i][j] = -1
 
+
 def bfs(i, j, check):
     bq = deque()
     bq.append((i, j))
@@ -29,18 +30,20 @@ def bfs(i, j, check):
                 bq.append((nx, ny))
                 check[nx][ny] = True
 
+
 def counting():
     cnt = 0
     check = [[False]*m for _ in range(n)]
     for _ in range(len(q)):
         x, y = q.popleft()
         q.append((x, y))
-        if check[x][y] is False:
+        if check[x][y] == False:
             bfs(x, y, check)
             cnt += 1
             if cnt >= 2:
                 return True
     return False
+
 
 def melting():
     p = deque()
@@ -56,9 +59,11 @@ def melting():
             q.append((x, y))
         elif a[x][y] == 0:
             p.append((x, y))
+
     while p:
         x, y = p.popleft()
         a[x][y] = -1
+
 
 def solve():
     year = 0

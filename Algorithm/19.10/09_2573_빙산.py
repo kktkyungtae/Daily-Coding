@@ -8,37 +8,18 @@
 
 import collections
 
-# 녹이기
-def bfs():
-    for i in range(s):
-        for j in range(g):
-            if mapp[i][j] != 0:
-                mapp[i][j] -= 1
-    bbfs()
-
-# 돌아보기
-def bbfs():
-    global k
-    for i in range(s):
-        for j in range(g):
-            if mapp[i][j] != 0 and visit2[i][j] == False:
-                visit2[i][j] = True
-                check(i, j)
-                k += 1
-
-# 번호 매기기
-def check(x, y):
-    mapp2 = [[0]*g for _ in range(s)]
+def numbering(x, y):
+    global visit
     q = collections.deque()
     q.append((x, y))
+    mapp2 = [[0]*g for _ in range(s)]
     mapp2[x][y] = k
-    visit[x][y] = True
+
+    dx = [0,0,-1,1]
+    dy = [-1,1,0,0]
 
     while q:
         x, y = q.popleft()
-
-        dx = [0,0,-1,1]
-        dy = [-1,1,0,0]
 
         for i in range(4):
             nx = x + dx[i]
@@ -47,22 +28,31 @@ def check(x, y):
             if 0 <= nx < g and 0 <= ny < s:
                 if mapp[nx][ny] != 0 and visit[nx][ny] == False:
                     mapp2[nx][ny] = k
-                    q.append((nx, ny))
-                    visit[nx][ny] = True
+
+
+def melt():
+    for i in range(s):
+        for j in range(g):
+            if mapp[i][j] > 0:
+                mapp[i][j] -= 1
 
 
 s, g = map(int, input().split())
 mapp = [list(map(int, input().split())) for _ in range(s)]
-visit2 = [[False] * g for _ in range(s)]
-flag = True
-
+flag = False
 k = 1
 
-while flag:
-    if k > 2:
-        flag = False
-    else:
-        bfs()
+def solve():
+    global k
+    visit = [[False] * g for _ in range(s)]
+    while k < 2:
+        for i in range(s):
+            for j in range(g):
+                if mapp[i][j] != 0 and visit[i][j] == False:
+                    numbering(i, j)
+                    k += 1
+                    melt()
 
-print(k-1)
+    return k
 
+print(solve())
