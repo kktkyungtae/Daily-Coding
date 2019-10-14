@@ -34,10 +34,15 @@ N = int(input())
 population = [0]+list(map(int, input().split()))
 adj = [0]+[list(map(int, input().split()[1:])) for _ in range(N)]
 min_diff = 999999999
+
 for n in range(1, (N//2)+1):
     for sector1 in itertools.combinations(range(1, N+1), n):
         sector2 = make_sector(sector1)
         visited = [False]*(N+1)
         if sector_validation(sector1, n) and sector_validation(sector2, N-n):
             min_diff = min(min_diff, abs(sector_population(sector1)-sector_population(sector2)))
-print(min_diff if min_diff != 999999999 else -1)
+
+if min_diff != 999999999:
+    print(min_diff)
+else:
+    print(-1)

@@ -3,21 +3,22 @@
 
 # 주어진 구역을 2개의 선거구로 나누어야하는데
 # 한 선거구에 포함된 구역은 전부 연결되어 있어야한다
-
+#
 import itertools
 
-area = int(input())
-people = list(map(int, input().split()))
+n = 6
+section = [1,2,3,4,5,6]
 
-connect = []
-for i in range(area):
-    temp = list(map(int, input().split()))
-    temp.pop(0)
-    connect.append(temp)
+r = 1
 
-areas = [ _ for _ in range(area)]
+c = list(itertools.combinations(section, r))
+d = list(itertools.combinations(section, len(section)-r))
 
-combi_area = list(itertools.combinations(areas, 2))
+print(len(c))
+for i in c:
+    print(i)
+print()
 
-for k in combi_area:
-    print(k)
+print(len(d))
+for i in d:
+    print(i)
