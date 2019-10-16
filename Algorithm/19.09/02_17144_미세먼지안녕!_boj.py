@@ -28,6 +28,7 @@ def purify():
     for i in range(c-2, -1, -1):
         a[s1][i+1] = a[s1][i]
     a[s1][1] = 0
+
     for i in range(s2+1, r-1):
         a[i][0] = a[i+1][0]
     for i in range(c-1):
