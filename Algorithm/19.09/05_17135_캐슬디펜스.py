@@ -36,6 +36,4 @@ for i in com_shoot:
 
     target.append(attack)
 
-=======
-#
->>>>>>> f3f9c501374e55f26423e21d4ea6da37eb0ed694
+

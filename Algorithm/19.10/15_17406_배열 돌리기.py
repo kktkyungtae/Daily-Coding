@@ -9,7 +9,22 @@
 import itertools
 
 def trans(r, c, s):
-    pass
+    while s > 0:
+        dist = s * 2
+        gijun = new_A[r-s][c-s]
+
+        for i in range(1, dist + 1):
+            gijun, new_A[r - c][i] = new_A[r - c][i], gijun
+
+        for i in range(1, dist + 1):
+            gijun, new_A[i][c + s] = new_A[i][c + s], gijun
+
+        for i in range(1, dist + 1):
+            gijun, new_A[r + c][i] = new_A[r + c][i], gijun
+
+        for i in range(1, dist):
+            gijun, new_A[r - c][i] = new_A[r - c][i], gijun
+    s -= 1
 
 n, m, k = map(int, input().split())
 A = [list(map(int, input().split())) for _ in range(n)]
