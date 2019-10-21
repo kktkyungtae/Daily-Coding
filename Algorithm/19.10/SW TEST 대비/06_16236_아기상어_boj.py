@@ -1,5 +1,5 @@
-from heapq import heappush, heappop
-
+# from heapq import heappush, heappop
+import heapq
 n = int(input())
 a = [list(map(int, input().split())) for _ in range(n)]
 q = []
@@ -8,7 +8,7 @@ def start():
     for i in range(n):
         for j in range(n):
             if a[i][j] == 9:
-                heappush(q, (0, i, j))
+                heapq.heappush(q, (0, i, j))
                 a[i][j] = 0
                 return
 
@@ -20,7 +20,7 @@ def bfs():
     dy = [1,-1,0,0]
 
     while q:
-        d, x, y = heappop(q)
+        d, x, y = heapq.heappop(q)
         if 0 < a[x][y] < shrk_size:
             eat += 1
             a[x][y] = 0
@@ -41,8 +41,8 @@ def bfs():
             nd = d + 1
             if 0 <= nx < n and 0 <= ny < n:
                 if 0 > a[nx][ny] <= shrk_size and visited[nx][ny] == False:
-            visited[nx][ny] = True
-            heappush(q, (nd, nx, ny))
+                    visited[nx][ny] = True
+                    heapq.heappush(q, (nd, nx, ny))
     print(ans)
 
 start()

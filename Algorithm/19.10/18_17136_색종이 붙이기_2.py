@@ -7,69 +7,75 @@
 # 1을 모두 없애는데 실패하면 -1 출력
 # 1을 모두 가리는데 필요한 색종이의 최소 갯수를 구해라
 
-
-def dfs(depth):
-    global n, answer, total_one
-
-    # 이미 최소값보다 뎁스가 커지면 더이상 탐색 안하고 리턴
-    if answer > 0 and answer <= depth:
+def f(n, s): # n : 사용한 종이수, s : 남은 1
+    global minV
+    if s==0:
+        if minV>n:
+            minV = n
+    elif minV == 4:
         return
-
-    # 남은 1이 없을 때 뎁스가 최소값보다 작다면(최초에 answer는 -1)
-    if total_one == 0:
-        if answer == -1 or answer > depth:
-            answer = depth  # 값을 할당하고 리턴
+    elif sum(paper)==0:
         return
+    else:
+        for i in range(10):
+            for j in range(10):
+                if m[i][j]==1 and visited[i][j] ==0: # 왼쪽 모서리로 가정
+                    for k in range(5, 0, -1): # 덮는 크기
 
-    # 시작점을 정해야함.
-    for y in range(n):
-        for x in range(n):
-            if MAP[y][x]:
-                break
-        if MAP[y][x]:
-            break
+                        if paper[k]>0 and i+k<=10 and j+k<=10: # 종이가 남아있고
+                            cover = 0
+                            for r in range(i, i+k):
+                                for c in range(j, j+k):
+                                    if visited[r][c]==0:
+                                        cover += m[r][c]
+                            if cover==(k*k): # 덮어지면
+                                for r in range(i, i + k):
+                                    for c in range(j, j + k):
+                                        visited[r][c] = 1
+                                paper[k] -= 1
+                                f(n+1, s-k*k)
+                                for r in range(i, i + k):
+                                    for c in range(j, j + k):
+                                        visited[r][c] = 0
+                                paper[k] += 1
+                    return
 
-    if MAP[y][x]:
-        # 해당 점에 1~5 사이즈를 대본다.
-        for size in range(1, 5 + 1):
-            if paper[size]:
-                one2zero = []  # 1 에서 0으로 바뀐 좌표 저장해서 나중에 도로 바꿔준다.
+m = [list(map(int, input().split()))for _ in range(10)]
+visited = [[0]*10 for _ in range(10)]
+minV = 26
+s = 0
+paper = [0, 5, 5, 5, 5, 5]
+for i in range(10):
+    for j in range(10):
+        if m[i][j]==1:
+            s += 1
+f(0, s)
+if minV == 26:
+    minV = -1
+print(minV)
 
-                if isCoverable(y, x, size):  # 해당 사이즈로 덮을 수 있다면
-                    for next_y in range(y, y + size):
-                        for next_x in range(x, x + size):
-                            MAP[next_y][next_x] = 0  # 1에서 0 으로 바꾸고
-                            one2zero.append((next_y, next_x))  # 좌표를 저장
+'''
 
-                    total_one -= size ** (2)
-                    paper[size] -= 1
-                    dfs(depth + 1)
-                    paper[size] += 1  # 다시 탐색을 위해 값을 되돌림
-                    total_one += size ** (2)  # 다시 탐색을 위해 값을 되돌림
+0 0 0 0 0 0 0 0 0 0
+0 1 1 0 0 0 0 0 0 0
+0 1 1 1 0 0 0 0 0 0
+0 0 1 1 1 1 1 0 0 0
+0 0 0 1 1 1 1 0 0 0
+0 0 0 0 1 1 1 0 0 0
+0 0 1 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
 
-                    # 바뀐 좌표들을 다시 0에서 1로 바꿔줌
-                    for y_x in one2zero:
-                        MAP[y_x[0]][y_x[1]] = 1
+0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 1 0 0 0 0 0
+0 0 0 0 0 1 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 1 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
 
-
-# 색종이로 채울 수 있는지 검사하는 함수
-def isCoverable(y, x, size):
-    global n
-    for _y in range(y, y + size):
-        for _x in range(x, x + size):
-            if 0 <= _y < n and 0 <= _x < n:
-                if MAP[_y][_x] == 0:
-                    return False
-            else:
-                return False
-    return True
-
-
-n = 10
-MAP = [list(map(int, input().split())) for _ in range(n)]
-paper = [0] + [5] * 5
-answer = -1
-total_one = sum(sum(m) for m in MAP)
-dfs(0)
-
-print(answer)
+'''
