@@ -14,17 +14,19 @@
 
 import itertools
 
+
 def solution(numbers):
     answer = set()
-    maximum = 10000000
-    prime_1st = [False, False] + [True] * maximum
 
-    for idx, num in enumerate(prime_1st):
-        if num == True:
+    max_int = 10000000
+    check_sossu = [False, False] + [True] * max_int
+
+    for idx, value in enumerate(check_sossu):
+        if value == True:
             k = idx * 2
 
-            while k <= maximum:
-                prime_1st[k] = False
+            while k <= max_int:
+                check_sossu[k] = False
                 k += idx
 
     for i in range(1, len(numbers) + 1):
@@ -33,7 +35,7 @@ def solution(numbers):
         for i in list(perm):
             num = int("".join(list(i)))
 
-            if prime_1st[num] == True:
+            if check_sossu[num] == True:
                 answer.add(num)
 
     return len(answer)
