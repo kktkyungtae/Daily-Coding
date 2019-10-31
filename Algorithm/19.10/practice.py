@@ -1,11 +1,4 @@
-for i in range(1, 11):
-    if i != 10:
-        continue
-    print(i)
+a = [0,1,2,3,4,5]
 
-
-b = [[1,0,0],[0,0,0],[0,0,0]]
-
-a = [0,0]
-
-print(b[a])
+for i, x in enumerate(a):
+    print(i, x)
