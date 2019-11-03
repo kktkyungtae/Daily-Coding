@@ -11,7 +11,7 @@ def solve(n):
         temp_li = [1]
 
         while temp > 1:
-            temp_li.append(temp % 1)
+            temp_li.append(temp % i)
             temp //= i
 
         ans = 1
@@ -25,4 +25,5 @@ def solve(n):
             result[0] = i
 
     return result
+
 print(solve(10))

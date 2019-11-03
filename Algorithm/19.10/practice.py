@@ -1,6 +1,8 @@
-a = 1
-red = 2
+begin = "hit"
 
-c = red % 1
+answer = [begin]
 
-print(c)
+for i in answer:
+    print(i)
+    print(len(i))
+    print(i[1])
