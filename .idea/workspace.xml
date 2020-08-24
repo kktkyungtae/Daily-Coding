@@ -2,69 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ade3627-5f25-45bb-b848-491bda3bf877" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Algorithm/19.10/31_11047_동전 0.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/19.10/31_완전탐색_모의고사.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/19.10/31_완전탐색_소수 찾기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/19.10/31_정렬_H-index.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/19.10/31_정렬_K번째 수.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/19.10/31_정렬_가장 큰 수.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/2020/08/01_1000_A+B.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/19.10/practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/19.10/practice.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Algorithm/19.10/31_정렬_H-index.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-              <folding>
-                <marker date="1572506804427" expanded="true" signature="107:112" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Algorithm/19.10/31_완전탐색_모의고사.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
-              <folding>
-                <marker date="1572511133154" expanded="true" signature="526:531" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Algorithm/19.10/31_완전탐색_소수 찾기.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-              <folding>
-                <marker date="1572514951918" expanded="true" signature="406:411" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Algorithm/19.10/practice.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -76,65 +20,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/Algorithm/19.08/07_1699_제곱수의 합.py" />
-        <option value="$PROJECT_DIR$/Algorithm/19.08/07_1904_01타일.py" />
-        <option value="$PROJECT_DIR$/Algorithm/19.08/09_12865_평범한 배낭.py" />
-        <option value="$PROJECT_DIR$/Algorithm/19.08/input.txt" />
-        <option value="$PROJECT_DIR$/Algorithm/19.08/12_12865_평범한 배낭.py" />
-        <option value="$PROJECT_DIR$/Algorithm/19.08/12_12865_평범한 배낭2.py" />
-        <option value="$PROJECT_DIR$/Algorithm/19.08/12_1904_01타일.py" />
-        <option value="$PROJECT_DIR$/Algorithm/19.08/12_1699_제곱수의 합.py" />
-        <option value="$PROJECT_DIR$/Algorithm/19.08/12_11055_가장큰부분증가수열.py" />
-        <option value="$PROJECT_DIR$/Algorithm/19.08/input2.txt" />
-        <option value="$PROJECT_DIR$/Data 분석 &amp; 이미지 처리/01_numpy 사용법.py" />
-        <option value="$PROJECT_DIR$/Data 분석 &amp; 이미지 처리/02_Numpy 배열 초기화.py" />
-        <option value="$PROJECT_DIR$/Algorithm/19.10/31_11047_동전 0.py" />
-        <option value="$PROJECT_DIR$/Algorithm/19.10/31_K번째 수.py" />
-        <option value="$PROJECT_DIR$/Algorithm/19.10/31_가장 큰 수.py" />
-        <option value="$PROJECT_DIR$/Algorithm/19.10/31_H-index.py" />
-        <option value="$PROJECT_DIR$/Algorithm/19.10/practice.py" />
-        <option value="$PROJECT_DIR$/Algorithm/19.10/31_모의고사.py" />
-        <option value="$PROJECT_DIR$/Algorithm/19.10/31_소수 찾기.py" />
-        <option value="$PROJECT_DIR$/Algorithm/19.10/31_완전탐색_소수 찾기.py" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectId" id="1gYHiGNCaNTPGalctFxQqp1sV0C" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="TIL3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TIL3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TIL3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TIL3" type="462c0819:PsiDirectoryNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TIL3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TIL3" type="462c0819:PsiDirectoryNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="19.10" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -144,19 +37,28 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.31_완전탐색_소수 찾기">
+  <component name="RunManager" selected="Python.01_1000_A+B">
+    <configuration name="01_1000_A+B" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TIL3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\14997\PycharmProjects\TIL\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithm/2020/08" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/2020/08/01_1000_A+B.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="31_가장 큰 수" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TIL3" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -191,27 +93,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="C:\Users\multicampus\TIL3\TIL3\Algorithm\19.10\31_정렬_H-index.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="31_K번째 수" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="TIL3" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithm/19.10" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\multicampus\TIL3\TIL3\Algorithm\19.10\31_정렬_K번째 수.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -263,19 +144,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.practice" />
       <item itemvalue="Python.31_가장 큰 수" />
       <item itemvalue="Python.31_H-index" />
-      <item itemvalue="Python.31_K번째 수" />
       <item itemvalue="Python.31_완전탐색_소수 찾기" />
-      <item itemvalue="Python.practice" />
+      <item itemvalue="Python.01_1000_A+B" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.01_1000_A+B" />
         <item itemvalue="Python.31_완전탐색_소수 찾기" />
         <item itemvalue="Python.practice" />
         <item itemvalue="Python.31_H-index" />
         <item itemvalue="Python.31_가장 큰 수" />
-        <item itemvalue="Python.31_K번째 수" />
       </list>
     </recent_temporary>
   </component>
@@ -302,272 +183,37 @@
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="30578000" />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="1046" y="0" width="881" height="1047" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.34875444" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.23684211" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991228" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Algorithm/19.08/07_1699_제곱수의 합.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/19.07/31_5430_AC.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/19.08/05_2231_분해합.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/19.08/05_00_Permutation.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/19.08/05_00_Combinations.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/19.07/17_2438_별찍기-1.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/19.07/17_2445_별찍기_8.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/19.07/17_커피내기.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/19.07/17_2440_별찍기-3.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/19.07/17_2442_별찍기-5.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/19.07/17_2444_별찍기_7.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/19.08/07_1904_01타일.py" />
-    <entry file="file://$PROJECT_DIR$/Algorithm/19.07/26_10808_알파벳 갯수.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/19.07/29_9012_괄호.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/19.07/17_2446_별찍기-9.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/19.07/25_1475_방 번호.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/19.07/26_11328_Strfry.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/19.08/05_3085_사탕게임2.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/19.08/05_3085_사탕게임.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/19.08/05_2309_일곱난쟁이.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/19.08/09_12865_평범한 배낭.py" />
-    <entry file="file://$PROJECT_DIR$/Algorithm/19.08/01_1021_회전하는 큐.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/19.08/08_1874_스택수열.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/19.08/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/19.01/190117/3_숫자카드_input.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/19.01/190117/숫자카드.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="37" column="12" lean-forward="true" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/19.08/12_1904_01타일.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/19.08/input2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/19.08/12_12865_평범한 배낭2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/19.08/12_11055_가장큰부분증가수열.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/19.08/12_1699_제곱수의 합.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/19.08/12_12865_평범한 배낭.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data 분석 &amp; 이미지 처리/01_List를 Numpy로 변경.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop.ini">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data 분석 &amp; 이미지 처리/02_Numpy 배열 초기화.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/19.10/13_11번가_자릿수곱.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/19.10/02_1012_유기농배추.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/19.10/31_정렬_K번째 수.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/19.10/31_정렬_가장 큰 수.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/19.10/practice.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/19.10/31_정렬_H-index.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-          <folding>
-            <marker date="1572506804427" expanded="true" signature="107:112" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/19.10/31_완전탐색_모의고사.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
-          <folding>
-            <marker date="1572511133154" expanded="true" signature="526:531" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/19.10/31_11047_동전 0.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/19.10/31_완전탐색_소수 찾기.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <marker date="1572514951918" expanded="true" signature="406:411" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="704" y="26" key="#01_1000_A+B" timestamp="1598285122202">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="704" y="26" key="#01_1000_A+B/0.0.1536.824@0.0.1536.824" timestamp="1598285122202" />
+    <state x="574" y="71" key="#Notifications" timestamp="1598285137136">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="71" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1598285137136" />
+    <state width="948" height="123" key="GridCell.Tab.0.bottom" timestamp="1598285358377">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="948" height="123" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598285358377" />
+    <state width="948" height="123" key="GridCell.Tab.0.center" timestamp="1598285358377">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="948" height="123" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598285358377" />
+    <state width="948" height="123" key="GridCell.Tab.0.left" timestamp="1598285358377">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="948" height="123" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598285358377" />
+    <state width="948" height="123" key="GridCell.Tab.0.right" timestamp="1598285358377">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="948" height="123" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598285358377" />
+    <state x="490" y="55" key="SettingsEditor" timestamp="1598285197943">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="490" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1598285197943" />
   </component>
 </project>
