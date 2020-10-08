@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ade3627-5f25-45bb-b848-491bda3bf877" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Algorithm/2020/09/29_숫자.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/2020/09/29_숫자의 개수.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/2020/09/29_핸드폰 요금.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/2020/09/29_핸드폰 요금.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/2020/09/29_핸드폰 요금.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/2020/09/Practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/2020/09/Practice.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,28 +38,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.29_숫자의 개수">
-    <configuration name="26_윳놀이" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="TIL3" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithm/2020/09" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/2020/09/26_윳놀이.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.29_핸드폰 요금">
     <configuration name="26_대표값2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TIL3" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -166,6 +144,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="29_핸드폰 요금" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TIL3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithm/2020/09" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/2020/09/29_핸드폰 요금.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="29_숫자의 개수" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TIL3" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -208,20 +207,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Practice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TIL3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithm/2020/09" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/2020/09/Practice.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.26_윳놀이" />
       <item itemvalue="Python.26_대표값2" />
-      <item itemvalue="Python.26_일곱난쟁이2" />
       <item itemvalue="Python.29_숫자" />
       <item itemvalue="Python.29_숫자의 개수" />
+      <item itemvalue="Python.29_핸드폰 요금" />
+      <item itemvalue="Python.Practice" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.29_핸드폰 요금" />
+        <item itemvalue="Python.Practice" />
         <item itemvalue="Python.29_숫자의 개수" />
         <item itemvalue="Python.29_숫자" />
-        <item itemvalue="Python.26_일곱난쟁이2" />
         <item itemvalue="Python.26_대표값2" />
-        <item itemvalue="Python.26_윳놀이" />
       </list>
     </recent_temporary>
   </component>
@@ -268,22 +288,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="686" y="217" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1601540746013" />
-    <state width="948" height="148" key="GridCell.Tab.0.bottom" timestamp="1601540796485">
+    <state width="808" height="148" key="GridCell.Tab.0.bottom" timestamp="1602142878639">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="948" height="148" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601540796485" />
-    <state width="948" height="148" key="GridCell.Tab.0.center" timestamp="1601540796484">
+    <state width="808" height="148" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602142878639" />
+    <state width="808" height="148" key="GridCell.Tab.0.center" timestamp="1602142878639">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="948" height="148" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1601540796484" />
-    <state width="948" height="148" key="GridCell.Tab.0.left" timestamp="1601540796484">
+    <state width="808" height="148" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602142878639" />
+    <state width="808" height="148" key="GridCell.Tab.0.left" timestamp="1602142878639">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="948" height="148" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1601540796484" />
-    <state width="948" height="148" key="GridCell.Tab.0.right" timestamp="1601540796484">
+    <state width="808" height="148" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602142878639" />
+    <state width="808" height="148" key="GridCell.Tab.0.right" timestamp="1602142878639">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="948" height="148" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1601540796484" />
+    <state width="808" height="148" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602142878639" />
     <state x="490" y="55" key="SettingsEditor" timestamp="1598460116463">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
