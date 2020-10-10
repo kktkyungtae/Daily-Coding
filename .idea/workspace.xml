@@ -34,7 +34,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.29_핸드폰 요금">
+  <component name="RunManager" selected="Python.29_숫자의 개수">
     <configuration name="26_최댓값" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TIL3" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -140,27 +140,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="29_숫자의 개수" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="TIL3" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithm/2020/09" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/2020/09/29_숫자의 개수.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="29_핸드폰 요금" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TIL3" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -174,6 +153,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/2020/09/29_핸드폰 요금.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="29_숫자의 개수" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TIL3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithm/2020/09" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/2020/09/29_숫자의 개수.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -225,15 +225,15 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.29_숫자의 개수" />
       <item itemvalue="Python.26_대표값2" />
       <item itemvalue="Python.26_최댓값" />
-      <item itemvalue="Python.29_핸드폰 요금" />
       <item itemvalue="Python.29_숫자" />
       <item itemvalue="Python.Practice" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.29_핸드폰 요금" />
+        <item itemvalue="Python.29_숫자의 개수" />
         <item itemvalue="Python.Practice" />
         <item itemvalue="Python.29_숫자" />
         <item itemvalue="Python.26_대표값2" />
@@ -279,10 +279,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="71" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1598285137136" />
-    <state x="686" y="217" key="FileChooserDialogImpl" timestamp="1601540746013">
+    <state x="686" y="217" key="FileChooserDialogImpl" timestamp="1602321269885">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="686" y="217" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1601540746013" />
+    <state x="686" y="217" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602321269885" />
     <state width="808" height="148" key="GridCell.Tab.0.bottom" timestamp="1602143075074">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
