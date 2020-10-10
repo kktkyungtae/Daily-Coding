@@ -1,5 +1,7 @@
-n = [1,2,3,4,5]
+a = ['My','name','is','kyungtae']
+b = ['Go', 'to', 'ss']
 
-print(n[1:3])
-
-print(list(reversed(n)))
+print("".join(a))
+print("".join(b))
+print("".join(a+b))
+print("-".join(a+b))
