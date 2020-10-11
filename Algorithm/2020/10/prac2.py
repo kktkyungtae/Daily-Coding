@@ -12,3 +12,8 @@ print('rotate(-2)', q)
 
 q.rotate(2)
 print('rotate(2)', q)
+
+print()
+
+for i in range(1,0,-11):
+    print(i)
