@@ -31,3 +31,21 @@ print(q_3.popleft())
 q_3.append([3,4])
 d, f = q_3.popleft()
 print(d)
+
+print()
+
+print(5//2)
+print(5%2)
+print()
+print(5%8)
+print()
+
+N, K = 7, 3
+nums = [i for i in range(1, N+1, 1)]
+
+j = 0
+for t in range(N):
+    j = (j+K-1) % len(nums)
+    print(j)
+    nums.remove(nums[j])
+
