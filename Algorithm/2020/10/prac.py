@@ -1,13 +1,33 @@
-n_li = []
-for i in range(3):
-    n_li.append(int(input()))
+from collections import deque
 
-n_lili = str(n_li[0] * n_li[1] * n_li[2])
-print(n_lili)
-count = []
-for j in range(10):
-    count.append(n_lili.count(str(j)))
+q = deque()
+q_2 = deque()
+q_3 = deque()
 
-for k in count:
-    print(k)
+q.append((1,2))
+q_3.append([1,2])
 
+l = deque()
+l.append((7,9))
+m, l = l.pop()
+print(m)
+
+print(q)
+print(q[0])
+print(q[0][0])
+print(q.popleft())
+
+q.append((3,4))
+x, y = q.popleft()
+print(x)
+
+print()
+
+print(q_3)
+print(q_3[0])
+print(q_3[0][0])
+print(q_3.popleft())
+
+q_3.append([3,4])
+d, f = q_3.popleft()
+print(d)
