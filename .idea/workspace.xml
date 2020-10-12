@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8ade3627-5f25-45bb-b848-491bda3bf877" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/2020/10/10_재귀 (최대공약수).py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/2020/10/10_재귀 (최대공약수).py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/2020/10/11_선택정렬.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/2020/10/11_선택정렬.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/2020/10/prac2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/2020/10/prac2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/2020/10/10_DFS_음료수 얼려 먹기.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/2020/10/10_DFS_음료수 얼려 먹기.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,11 +170,11 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.prac2" />
       <item itemvalue="Python.10_재귀 (최대공약수)" />
-      <item itemvalue="Python.11_선택정렬" />
-      <item itemvalue="Python.11_퀵 정렬2" />
       <item itemvalue="Python.10_DFS 구현" />
+      <item itemvalue="Python.11_퀵 정렬2" />
+      <item itemvalue="Python.11_선택정렬" />
+      <item itemvalue="Python.prac2" />
     </list>
     <recent_temporary>
       <list>

@@ -26,6 +26,7 @@ def dfs(x, y):
         dfs(x, y - 1)
         dfs(x, y + 1)
         return True
+    # 임마 덕분에 1인 처음에 1인 구역에 들어가면 False로 dfs 끝
     return False
 
 result = 0
