@@ -2,20 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ade3627-5f25-45bb-b848-491bda3bf877" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Algorithm/2020/10/14_Counter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/2020/10/14_DFS와 BFS3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/2020/10/14_Pass.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/2020/10/14_break.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/2020/10/14_continue.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/2020/10/14_for문.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/2020/10/14_index.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/2020/10/14_prac.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/2020/10/14_미로탐색.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/2020/10/14_아기상어.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/2020/10/15_00_prac.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/2020/10/15_01_아기상어2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/2020/10/15_02_연구소3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/2020/10/15_01_아기상어3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/2020/10/15_02_연구소3_X.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/2020/10/15_03_연구소3_X.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/2020/10/15_04_미세먼지 안녕!.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/2020/10/16_prac.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/2020/10/15_00_prac.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/2020/10/15_00_prac.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/2020/10/15_02_연구소3.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,49 +48,7 @@
       <recent name="C:\Users\14997\Desktop\TIT\02. Non Project\10. Coding\Daily-Coding\Algorithm\2020\10" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.14_아기상어">
-    <configuration name="12_에너그램" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="TIL3" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithm/2020/10" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/2020/10/12_에너그램.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="14_미로탐색" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="TIL3" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithm/2020/10" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/2020/10/14_미로탐색.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.16_prac">
     <configuration name="14_아기상어" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TIL3" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -118,7 +70,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="15_00_prac" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="15_00_prac (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TIL3" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -130,7 +82,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\14997\Desktop\TIT\02. Non Project\10. Coding\Daily-Coding\Algorithm\2020\10\15_00_prac.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/2020/10/15_00_prac.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -139,7 +91,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="15_02_연구소3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="15_01_아기상어3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TIL3" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -151,7 +103,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/2020/10/15_02_연구소3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/2020/10/15_01_아기상어3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -160,7 +112,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="prac3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="15_02_연구소3_X" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TIL3" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -172,7 +124,49 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/2020/10/prac3.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\14997\Desktop\TIT\02. Non Project\10. Coding\Daily-Coding\Algorithm\2020\10\15_02_연구소3_X.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="15_04_미세먼지 안녕!" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TIL3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithm/2020/10" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/2020/10/15_04_미세먼지 안녕!.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="16_prac" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TIL3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithm/2020/10" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/2020/10/16_prac.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -182,19 +176,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.14_미로탐색" />
-      <item itemvalue="Python.14_아기상어" />
-      <item itemvalue="Python.prac3" />
-      <item itemvalue="Python.15_00_prac" />
-      <item itemvalue="Python.15_02_연구소3" />
+      <item itemvalue="Python.15_01_아기상어3" />
+      <item itemvalue="Python.15_00_prac (1)" />
+      <item itemvalue="Python.15_02_연구소3_X" />
+      <item itemvalue="Python.15_04_미세먼지 안녕!" />
+      <item itemvalue="Python.16_prac" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.14_아기상어" />
-        <item itemvalue="Python.15_02_연구소3" />
-        <item itemvalue="Python.15_00_prac" />
-        <item itemvalue="Python.prac3" />
-        <item itemvalue="Python.14_미로탐색" />
+        <item itemvalue="Python.16_prac" />
+        <item itemvalue="Python.15_04_미세먼지 안녕!" />
+        <item itemvalue="Python.15_02_연구소3_X" />
+        <item itemvalue="Python.15_00_prac (1)" />
+        <item itemvalue="Python.15_01_아기상어3" />
       </list>
     </recent_temporary>
   </component>
@@ -241,45 +235,45 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="686" y="217" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602321269885" />
-    <state width="1515" height="157" key="GridCell.Tab.0.bottom" timestamp="1602749890710">
+    <state width="736" height="157" key="GridCell.Tab.0.bottom" timestamp="1602783297051">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="157" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602749890710" />
-    <state width="1515" height="157" key="GridCell.Tab.0.center" timestamp="1602749890710">
+    <state width="736" height="157" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602783297051" />
+    <state width="736" height="157" key="GridCell.Tab.0.center" timestamp="1602783297050">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="157" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602749890710" />
-    <state width="1515" height="157" key="GridCell.Tab.0.left" timestamp="1602749890710">
+    <state width="736" height="157" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602783297050" />
+    <state width="736" height="157" key="GridCell.Tab.0.left" timestamp="1602783297050">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="157" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602749890710" />
-    <state width="1515" height="157" key="GridCell.Tab.0.right" timestamp="1602749890710">
+    <state width="736" height="157" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602783297050" />
+    <state width="736" height="157" key="GridCell.Tab.0.right" timestamp="1602783297050">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="157" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602749890710" />
-    <state width="856" height="226" key="GridCell.Tab.1.bottom" timestamp="1602575290278">
+    <state width="736" height="157" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602783297050" />
+    <state width="1515" height="258" key="GridCell.Tab.1.bottom" timestamp="1602758610018">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="856" height="226" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602575290278" />
-    <state width="856" height="226" key="GridCell.Tab.1.center" timestamp="1602575290278">
+    <state width="1515" height="258" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602758610018" />
+    <state width="1515" height="258" key="GridCell.Tab.1.center" timestamp="1602758610018">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="856" height="226" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1602575290278" />
-    <state width="856" height="226" key="GridCell.Tab.1.left" timestamp="1602575290278">
+    <state width="1515" height="258" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1602758610018" />
+    <state width="1515" height="258" key="GridCell.Tab.1.left" timestamp="1602758610018">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="856" height="226" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1602575290278" />
-    <state width="856" height="226" key="GridCell.Tab.1.right" timestamp="1602575290278">
+    <state width="1515" height="258" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1602758610018" />
+    <state width="1515" height="258" key="GridCell.Tab.1.right" timestamp="1602758610018">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="856" height="226" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1602575290278" />
-    <state x="490" y="55" key="SettingsEditor" timestamp="1598460116463">
+    <state width="1515" height="258" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1602758610018" />
+    <state x="490" y="55" key="SettingsEditor" timestamp="1602762731026">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="490" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1598460116463" />
-    <state x="518" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1602694414294">
+    <state x="490" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1602762731026" />
+    <state x="518" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1602769012687">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="518" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1602694414294" />
+    <state x="518" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1602769012687" />
   </component>
 </project>
