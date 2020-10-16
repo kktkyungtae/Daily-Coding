@@ -12,7 +12,6 @@ def turn_mat(li):
 
     return result
 
-
 T = int(input())
 
 for t in range(T):
