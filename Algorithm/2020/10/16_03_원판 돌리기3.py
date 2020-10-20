@@ -59,23 +59,23 @@ def bfs(x, y):
 for _ in range(t):
     x, d, k = map(int, input().split())
 
-    # # 요거는 배열 돌리기..
-    # k %= m
-    # for i in range(x-1, n, x):
-    #     if d == 0:
-    #         wonpan[i] = wonpan[i][-k:] + wonpan[i][:-k]
-    #         vst[i] = vst[i][-k:] + vst[i][:-k]
-    #     else:
-    #         wonpan[i] = wonpan[i][k:] + wonpan[i][:k]
-    #         vst[i] = vst[i][k:] + vst[i][:k]
+    # 요거는 배열 돌리기..
+    k %= m
+    for i in range(x-1, n, x):
+        if d == 0:
+            wonpan[i] = wonpan[i][-k:] + wonpan[i][:-k]
+            vst[i] = vst[i][-k:] + vst[i][:-k]
+        else:
+            wonpan[i] = wonpan[i][k:] + wonpan[i][:k]
+            vst[i] = vst[i][k:] + vst[i][:k]
 
-    # 요거는 rotate
-    for i in range(n):
-        if (i + 1) % x == 0:
-            if d == 0:
-                wonpan[i].rotate(k)
-            else:
-                wonpan[i].rotate(-k)
+    # # 요거는 rotate
+    # for i in range(n):
+    #     if (i + 1) % x == 0:
+    #         if d == 0:
+    #             wonpan[i].rotate(k)
+    #         else:
+    #             wonpan[i].rotate(-k)
 
     flag = 0
     for i in range(n):
