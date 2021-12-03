@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ade3627-5f25-45bb-b848-491bda3bf877" name="Default Changelist" comment="" />
+    <list default="true" id="8ade3627-5f25-45bb-b848-491bda3bf877" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Algorithm/2021/09/20.0_배열정렬 + lambda.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/2021/09/20.1_배열정렬 + lambda 내림.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/2021/09/20.2_삼항연산_If else.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/2021/09/20.3_조합1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/2021/09/20.4_조합2_itertools.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/2021/09/20.5_Counter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/2021/09/19.6_배열 정렬.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/2021/09/19.6_배열 정렬.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,8 +49,8 @@
       <recent name="C:\Users\14997\Desktop\TIT\02. Non Project\10. Coding\Daily-Coding\Algorithm\2020\10" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.19.5_원소 중복 제거">
-    <configuration name="19.1_문자열 거꾸로" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.20.4_조합2_itertools">
+    <configuration name="19.6_배열 정렬" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TIL3" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -53,7 +62,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/2021/09/19.1_문자열 거꾸로.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/2021/09/19.6_배열 정렬.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -62,7 +71,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="19.2_배열 초기화" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="20.0_배열정렬 + lambda" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TIL3" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -74,7 +83,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/2021/09/19.2_배열 초기화.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/2021/09/20.0_배열정렬 + lambda.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -83,7 +92,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="19.3_배열 거꾸로 + BJ2588" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="20.2_삼항연산_If else" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TIL3" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -95,7 +104,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/2021/09/19.3_배열 거꾸로 + BJ2588.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/2021/09/20.2_삼항연산_If else.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -104,7 +113,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="19.4_배열 원소 갯수" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="20.3_조합1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TIL3" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -116,7 +125,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/2021/09/19.4_배열 원소 갯수.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/2021/09/20.3_조합1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -125,7 +134,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="19.5_원소 중복 제거" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="20.4_조합2_itertools" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TIL3" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -137,7 +146,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/2021/09/19.5_원소 중복 제거.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/2021/09/20.4_조합2_itertools.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -147,19 +156,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.19.1_문자열 거꾸로" />
-      <item itemvalue="Python.19.2_배열 초기화" />
-      <item itemvalue="Python.19.3_배열 거꾸로 + BJ2588" />
-      <item itemvalue="Python.19.4_배열 원소 갯수" />
-      <item itemvalue="Python.19.5_원소 중복 제거" />
+      <item itemvalue="Python.19.6_배열 정렬" />
+      <item itemvalue="Python.20.0_배열정렬 + lambda" />
+      <item itemvalue="Python.20.2_삼항연산_If else" />
+      <item itemvalue="Python.20.3_조합1" />
+      <item itemvalue="Python.20.4_조합2_itertools" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.19.5_원소 중복 제거" />
-        <item itemvalue="Python.19.4_배열 원소 갯수" />
-        <item itemvalue="Python.19.3_배열 거꾸로 + BJ2588" />
-        <item itemvalue="Python.19.2_배열 초기화" />
-        <item itemvalue="Python.19.1_문자열 거꾸로" />
+        <item itemvalue="Python.20.4_조합2_itertools" />
+        <item itemvalue="Python.20.3_조합1" />
+        <item itemvalue="Python.20.2_삼항연산_If else" />
+        <item itemvalue="Python.20.0_배열정렬 + lambda" />
+        <item itemvalue="Python.19.6_배열 정렬" />
       </list>
     </recent_temporary>
   </component>
@@ -190,25 +199,25 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="943" y="168" key="FileChooserDialogImpl" timestamp="1632029495135">
+    <state x="943" y="168" key="FileChooserDialogImpl" timestamp="1638511595412">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="943" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1632029495135" />
-    <state width="704" height="190" key="GridCell.Tab.0.bottom" timestamp="1632033637901">
+    <state x="943" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1638511595412" />
+    <state width="680" height="190" key="GridCell.Tab.0.bottom" timestamp="1632216787123">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="704" height="190" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1632033637901" />
-    <state width="704" height="190" key="GridCell.Tab.0.center" timestamp="1632033637901">
+    <state width="680" height="190" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1632216787123" />
+    <state width="680" height="190" key="GridCell.Tab.0.center" timestamp="1632216787123">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="704" height="190" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1632033637901" />
-    <state width="704" height="190" key="GridCell.Tab.0.left" timestamp="1632033637901">
+    <state width="680" height="190" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1632216787123" />
+    <state width="680" height="190" key="GridCell.Tab.0.left" timestamp="1632216787122">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="704" height="190" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1632033637901" />
-    <state width="704" height="190" key="GridCell.Tab.0.right" timestamp="1632033637901">
+    <state width="680" height="190" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1632216787122" />
+    <state width="680" height="190" key="GridCell.Tab.0.right" timestamp="1632216787123">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="704" height="190" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1632033637901" />
+    <state width="680" height="190" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1632216787123" />
   </component>
 </project>
