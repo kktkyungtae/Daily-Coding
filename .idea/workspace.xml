@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ade3627-5f25-45bb-b848-491bda3bf877" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Algorithm/2021/09/20.0_배열정렬 + lambda.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/2021/09/20.1_배열정렬 + lambda 내림.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/2021/09/20.2_삼항연산_If else.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/2021/09/20.3_조합1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/2021/09/20.4_조합2_itertools.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/2021/09/20.5_Counter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Macro/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/2021/09/19.6_배열 정렬.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/2021/09/19.6_배열 정렬.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
